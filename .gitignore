@@ -3,3 +3,5 @@
 fp-info-cache
 *.bak
 _autosave-*
+*.FCBak
+*.FCStd1
