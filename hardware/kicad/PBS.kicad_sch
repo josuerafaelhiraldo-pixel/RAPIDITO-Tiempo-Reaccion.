@@ -5,130 +5,6 @@
 	(uuid "02384e40-f533-4257-afc9-07f927b528ed")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -417,255 +293,89 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 110.49 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b1beac5-2ac7-4d40-a2ca-2accb7f5624c")
-	)
-	(junction
-		(at 177.8 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "585bfa33-170c-4620-92f1-1dfb679bd71c")
-	)
-	(junction
-		(at 133.35 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ec3359d-fc07-48d2-9116-c54beda63f0f")
-	)
-	(junction
-		(at 156.21 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c399b353-935f-4dbf-a8b9-c8a084cd9d3e")
-	)
 	(wire
 		(pts
-			(xy 133.35 96.52) (xy 133.35 100.33)
+			(xy 106.68 87.63) (xy 106.68 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "064c8e1d-deed-4c62-bf1f-d8c2c7efdf46")
+		(uuid "18f4b224-157b-45ab-9d72-1a4c3ca82560")
 	)
 	(wire
 		(pts
-			(xy 110.49 77.47) (xy 110.49 81.28)
+			(xy 106.68 107.95) (xy 106.68 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c461fe8-69cb-4591-9034-68627cfaee5a")
+		(uuid "396d797d-0000-4095-b5d2-0fa62385093b")
 	)
 	(wire
 		(pts
-			(xy 177.8 88.9) (xy 177.8 96.52)
+			(xy 129.54 107.95) (xy 129.54 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ee21001-e651-4dd7-9e3c-a52c8de1e64a")
+		(uuid "6a6219c1-1c97-4356-af56-9715bd54f0f2")
 	)
 	(wire
 		(pts
-			(xy 133.35 88.9) (xy 133.35 96.52)
+			(xy 173.99 87.63) (xy 173.99 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44bdea5e-d108-4c5e-9041-e2f0b3927b83")
+		(uuid "8556bc4d-6f33-44b6-8923-f5a2425b8ccc")
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 110.49 96.52)
+			(xy 152.4 107.95) (xy 152.4 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a94bbfe-a60e-4301-a801-0ec41fd0479b")
+		(uuid "ad767cf5-6ec5-4e80-bc0a-56306f778b5c")
 	)
 	(wire
 		(pts
-			(xy 156.21 77.47) (xy 156.21 81.28)
+			(xy 173.99 107.95) (xy 173.99 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f3451c6-2e4e-456f-af4c-b391a86f9461")
+		(uuid "c53a4c05-63e6-4fca-bc5b-8a65ddc34787")
 	)
 	(wire
 		(pts
-			(xy 133.35 110.49) (xy 133.35 115.57)
+			(xy 129.54 87.63) (xy 129.54 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "570399e0-b697-4b37-bdfb-db5e37d299b4")
+		(uuid "c5fed5a6-0b75-4dde-b3bf-bcd2b871d98b")
 	)
 	(wire
 		(pts
-			(xy 177.8 110.49) (xy 177.8 115.57)
+			(xy 152.4 87.63) (xy 152.4 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "768aa321-c4da-4a38-b15f-80481fe7700e")
+		(uuid "df218bfb-0966-419c-91d0-e5d64f69cc95")
 	)
-	(wire
-		(pts
-			(xy 110.49 110.49) (xy 110.49 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "965658ef-fb8b-49b0-8961-403ab691bf3b")
-	)
-	(wire
-		(pts
-			(xy 110.49 88.9) (xy 110.49 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97017093-6255-47d7-a955-9b70ab09b90f")
-	)
-	(wire
-		(pts
-			(xy 146.05 96.52) (xy 156.21 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8584509-08eb-4a66-bd51-0fd70867c319")
-	)
-	(wire
-		(pts
-			(xy 156.21 96.52) (xy 156.21 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a974f0d8-feb4-4130-948a-2d1b11bca668")
-	)
-	(wire
-		(pts
-			(xy 156.21 88.9) (xy 156.21 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa968842-38f6-49a1-a20b-0d07779f4a56")
-	)
-	(wire
-		(pts
-			(xy 133.35 77.47) (xy 133.35 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab875937-3a18-494e-8f29-6cef106ed7d2")
-	)
-	(wire
-		(pts
-			(xy 177.8 96.52) (xy 177.8 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4817cc5-8b56-46bb-b5b7-4c69fc371e22")
-	)
-	(wire
-		(pts
-			(xy 167.64 96.52) (xy 177.8 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caeb0660-ebf8-4d81-bf59-fd1ddee64a7a")
-	)
-	(wire
-		(pts
-			(xy 177.8 77.47) (xy 177.8 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d8e78b-5c47-4a6c-b4eb-ffed1672076e")
-	)
-	(wire
-		(pts
-			(xy 123.19 96.52) (xy 133.35 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb1e62b-d87d-41af-b97a-82f07d8afd5d")
-	)
-	(wire
-		(pts
-			(xy 110.49 96.52) (xy 110.49 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f50d2095-2835-492d-b0a2-57cda3708496")
-	)
-	(wire
-		(pts
-			(xy 156.21 110.49) (xy 156.21 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb3c172c-4e2c-47f7-bf8a-d95b5f436e86")
-	)
-	(global_label "RESP_input"
+	(global_label "MODE_input"
 		(shape input)
-		(at 99.06 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3061e2af-61d5-4e15-850c-df9bc8886f25")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.4312 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC_3V3"
-		(shape input)
-		(at 156.21 77.47 90)
+		(at 173.99 87.63 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -673,9 +383,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5a65118a-cce5-4053-bfb6-5125d6b4b08e")
+		(uuid "19f878ac-92c1-464a-b784-ca9f428808b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 66.381 90)
+			(at 173.99 73.6988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -687,7 +397,7 @@
 	)
 	(global_label "START_input"
 		(shape input)
-		(at 123.19 96.52 90)
+		(at 129.54 87.63 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -695,53 +405,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8f7b9bf1-373d-4dc1-bd57-bdbd62c9930c")
+		(uuid "32cc1bf4-5923-4a31-a07f-f660bea79898")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 82.2864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC_3V3"
-		(shape input)
-		(at 133.35 77.47 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac3ce145-9093-4247-81a7-1cdbc3ff6d0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 66.381 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MODE_input"
-		(shape input)
-		(at 167.64 96.52 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1d8f6f0-4a7a-477f-8a6a-94e1c1eb04b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 82.5888 90)
+			(at 129.54 73.3964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +419,7 @@
 	)
 	(global_label "RESET_input"
 		(shape input)
-		(at 146.05 96.52 90)
+		(at 152.4 87.63 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -761,9 +427,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b6eb272a-a85f-4ba0-9e2e-f38719a01b97")
+		(uuid "93459625-642e-4a1a-b74c-5b2d8c913ee3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 82.0446 90)
+			(at 152.4 73.1546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -773,9 +439,9 @@
 			)
 		)
 	)
-	(global_label "VCC_3V3"
+	(global_label "RESP_input"
 		(shape input)
-		(at 110.49 77.47 90)
+		(at 106.68 87.63 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -783,31 +449,9 @@
 			)
 			(justify left)
 		)
-		(uuid "de26bf55-6b72-4285-ad74-511d2f3c6f64")
+		(uuid "ba76324d-dd7d-4775-a3cf-319c36c40de7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 66.381 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC_3V3"
-		(shape input)
-		(at 177.8 77.47 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2d95b16-0f52-4de9-a9c9-4c95bb908252")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 66.381 90)
+			(at 106.68 74.0012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,35 +462,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 110.49 85.09 0)
+		(lib_id "power:Earth")
+		(at 129.54 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1281ff89-27da-4b3f-b1e1-8d74a20937c2")
-		(property "Reference" "R31"
-			(at 113.03 83.8199 0)
+		(uuid "32abb6e5-e99c-4f43-978e-c90c77aa6f90")
+		(property "Reference" "#PWR013"
+			(at 129.54 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10kΩ"
-			(at 113.03 86.3599 0)
+		(property "Value" "GND"
+			(at 129.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 108.712 85.09 90)
+		(property "Footprint" ""
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +498,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 85.09 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,165 +506,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 110.49 85.09 0)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "a5a787bd-e0db-4f24-b89a-f34f05234087")
 		)
 		(pin "1"
-			(uuid "28c6cd2a-6da6-4793-b86f-671fd2a53a30")
+			(uuid "eb135d68-9b3b-410f-a687-5f586d81f754")
 		)
 		(instances
 			(project "RAPIDITO [tiempo-reacción]"
 				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c0775a4-b9d0-41ed-addb-2d12443ccbbd")
-		(property "Reference" "R34"
-			(at 180.34 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 180.34 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 176.022 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0327af4-0167-4d21-959b-39bcdb233472")
-		)
-		(pin "1"
-			(uuid "04664867-cb92-4887-8b04-9d378bd6d18b")
-		)
-		(instances
-			(project "RAPIDITO [tiempo-reacción]"
-				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55690b93-59b2-4e56-9905-19743600dd7d")
-		(property "Reference" "R33"
-			(at 158.75 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 158.75 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 154.432 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c81b057-9cc3-49b4-9960-79c4dd557095")
-		)
-		(pin "1"
-			(uuid "df98f7d9-e2c1-46f8-b4ae-b0998f9eb841")
-		)
-		(instances
-			(project "RAPIDITO [tiempo-reacción]"
-				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
-					(reference "R33")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -1029,86 +529,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 177.8 105.41 90)
+		(at 152.4 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5813c220-70f7-47e4-9d08-0386ddea1a35")
-		(property "Reference" "BTN_MODE2"
-			(at 179.07 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PB4"
-			(at 179.07 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 172.72 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4418f2b4-6f9b-471c-8b3c-fbe88603e834")
-		)
-		(pin "1"
-			(uuid "271ec323-d633-436f-b88a-58b225822601")
-		)
-		(instances
-			(project "RAPIDITO [tiempo-reacción]"
-				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
-					(reference "BTN_MODE2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 156.21 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "660a00b7-acde-4f29-8a09-da7c79960353")
+		(uuid "32c09be1-a225-4270-8d3a-837e034b3880")
 		(property "Reference" "BTN_RESET2"
-			(at 157.48 104.1399 90)
+			(at 153.67 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +547,7 @@
 			)
 		)
 		(property "Value" "PB3"
-			(at 157.48 106.6799 90)
+			(at 153.67 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,8 +555,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 151.13 105.41 0)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 105.41 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +574,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 156.21 105.41 0)
+			(at 152.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,10 +583,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "caa31b61-1f90-4da3-aa93-2e1ed671b3b6")
+			(uuid "3f46e730-1408-49ad-b44a-9a6134f2b5ea")
 		)
 		(pin "1"
-			(uuid "814bc1b7-4f17-4de2-b2ea-77149b3c28e8")
+			(uuid "a5b59af3-ea42-4fd6-b71e-2ccbec5c2678")
 		)
 		(instances
 			(project "RAPIDITO [tiempo-reacción]"
@@ -1169,16 +599,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 133.35 105.41 90)
+		(at 173.99 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6a0db66c-125f-45b8-8949-11b72883d817")
-		(property "Reference" "BTN_START2"
-			(at 134.62 104.1399 90)
+		(uuid "3630b434-e4da-450d-a300-2a8930722848")
+		(property "Reference" "BTN_MODE2"
+			(at 175.26 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,8 +616,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PB2"
-			(at 134.62 106.6799 90)
+		(property "Value" "PB4"
+			(at 175.26 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,8 +625,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 128.27 105.41 0)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 168.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 105.41 0)
+			(at 168.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +644,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 133.35 105.41 0)
+			(at 173.99 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,15 +653,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "86b8b894-6b3b-4e9c-bb92-76a7062326e0")
+			(uuid "1d83e564-5f34-4e87-8601-19cbfa0fc6de")
 		)
 		(pin "1"
-			(uuid "bbd5e8fe-0c27-4bf4-ac83-d0dcc8fef2aa")
+			(uuid "8501fb2f-0612-49ba-8ce7-669258c8a992")
 		)
 		(instances
 			(project "RAPIDITO [tiempo-reacción]"
 				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
-					(reference "BTN_START2")
+					(reference "BTN_MODE2")
 					(unit 1)
 				)
 			)
@@ -1239,16 +669,16 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 133.35 115.57 0)
+		(at 173.99 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "74250256-028c-4659-88fd-f42d261e858b")
-		(property "Reference" "#PWR013"
-			(at 133.35 121.92 0)
+		(uuid "73e10d68-0390-4295-96c5-faadbfdbc7b6")
+		(property "Reference" "#PWR015"
+			(at 173.99 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 120.65 0)
+			(at 173.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 115.57 0)
+			(at 173.99 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 115.57 0)
+			(at 173.99 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 133.35 115.57 0)
+			(at 173.99 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,148 +722,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "83a8b0d9-1d90-4d34-80ff-51cd934757c2")
+			(uuid "a4a72e89-a622-4fd3-90ec-452e4a9a9114")
 		)
 		(instances
 			(project "RAPIDITO [tiempo-reacción]"
 				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7480c74e-a344-431b-bddc-f8fba4562e98")
-		(property "Reference" "R32"
-			(at 135.89 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 135.89 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 131.572 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1eb48d6-46c9-4e49-84b7-3b863801cb1c")
-		)
-		(pin "1"
-			(uuid "8d231e8f-26cd-46a5-a35a-863ef4809b4d")
-		)
-		(instances
-			(project "RAPIDITO [tiempo-reacción]"
-				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 156.21 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c733e57-c722-49bc-b8c8-1860fc5025ba")
-		(property "Reference" "#PWR014"
-			(at 156.21 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 156.21 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a22ffec7-4a8f-4f5c-b42c-343cfa0ba83b")
-		)
-		(instances
-			(project "RAPIDITO [tiempo-reacción]"
-				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1441,16 +735,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 110.49 105.41 90)
+		(at 106.68 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c894c42c-f5ba-43dc-84db-9756bd1abaa9")
+		(uuid "900cd5ce-7fa1-47e4-b79f-5d8f1c2b8744")
 		(property "Reference" "BTN_RESP2"
-			(at 111.76 104.1399 90)
+			(at 107.95 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,7 +753,7 @@
 			)
 		)
 		(property "Value" "PB1"
-			(at 111.76 106.6799 90)
+			(at 107.95 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,8 +761,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 105.41 105.41 0)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 101.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 105.41 0)
+			(at 101.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +780,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 110.49 105.41 0)
+			(at 106.68 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,10 +789,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d7cdd4e7-bbfa-4787-bfee-fe4c96caae6a")
+			(uuid "881b22cb-a19a-459b-93d4-be23105c325f")
 		)
 		(pin "1"
-			(uuid "5ec3d3f4-1c87-4317-b2f3-b6ac8e078911")
+			(uuid "db7e6789-629d-4a03-ad83-cad55dd7c7b3")
 		)
 		(instances
 			(project "RAPIDITO [tiempo-reacción]"
@@ -1511,16 +805,16 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 177.8 115.57 0)
+		(at 106.68 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d7e057ae-b64b-4b65-9bdd-9223d809b598")
-		(property "Reference" "#PWR015"
-			(at 177.8 121.92 0)
+		(uuid "9205c305-b40c-4788-ac42-1cc3f583b2df")
+		(property "Reference" "#PWR012"
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +823,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 120.65 0)
+			(at 106.68 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 115.57 0)
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 115.57 0)
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 177.8 115.57 0)
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,12 +858,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c77a561f-71c7-47d0-b29e-92b14dca5a5d")
+			(uuid "85f69d8f-0e3e-420d-b1aa-750715f219d4")
 		)
 		(instances
 			(project "RAPIDITO [tiempo-reacción]"
 				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
-					(reference "#PWR015")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1577,16 +871,16 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 110.49 115.57 0)
+		(at 152.4 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd0c38e2-51ba-4ef0-a8c3-ea2f4df49e2f")
-		(property "Reference" "#PWR012"
-			(at 110.49 121.92 0)
+		(uuid "c41fa0d0-7ac1-45d2-adb2-ea3914758bda")
+		(property "Reference" "#PWR014"
+			(at 152.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +889,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 120.65 0)
+			(at 152.4 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 115.57 0)
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 115.57 0)
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 110.49 115.57 0)
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,12 +924,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1092fa0-7513-4cf5-97b2-7265901d6b21")
+			(uuid "9aa53c57-3eff-4f64-998e-a9c43d258b6c")
 		)
 		(instances
 			(project "RAPIDITO [tiempo-reacción]"
 				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
-					(reference "#PWR012")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de8d33ae-846d-4d4d-ad0c-36681ab12137")
+		(property "Reference" "BTN_START2"
+			(at 130.81 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PB2"
+			(at 130.81 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e390403-64cd-468b-a518-739c8f299975")
+		)
+		(pin "1"
+			(uuid "7e99cf83-fcc6-4dc5-a60f-d901073068d2")
+		)
+		(instances
+			(project "RAPIDITO [tiempo-reacción]"
+				(path "/e6f142e2-b716-4ad1-8784-0c223e49aa91/519b65f8-5429-4826-a317-b754b8da882c"
+					(reference "BTN_START2")
 					(unit 1)
 				)
 			)
